@@ -1,0 +1,44 @@
+html, body{
+    background-color: #f0f6f7ff;
+    font-family: Calibri;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+.header {
+    display:flex;
+}
+
+.header h1{
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.header h2:first-child {
+    margin-left: 40px;
+}
+
+.header h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #ff4f58ff;
+    cursor: default;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid img {
+    margin: 6px;
+    width: 32%;
+    border: 2px solid black;
+    transition: 1s;
+}
